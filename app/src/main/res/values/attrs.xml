@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundProgress">
+        <attr name="txtColor" format="color"/>
+        <attr name="txtSize" format="dimension"/>
+        <attr name="max" format="integer"/>
+        <attr name="progress" format="integer"/>
+        <attr name="txtVisible" format="boolean"/>
+        <attr name="roundColor" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <!--是否补角-->
+        <attr name="supplement" format="boolean"/>
+        <!--是否逆时针-->
+        <attr name="AntiClock" format="boolean"/>
+        <attr name="state">
+            <enum name="progressing" value="0"/>
+            <enum name="pause" value="1"/>
+        </attr>
+        <attr name="emptyWidth" format="integer"/>
+        <attr name="trianglePadding" format="integer"/>
+    </declare-styleable>
+</resources>
